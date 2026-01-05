@@ -84,9 +84,9 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: "google"
-      name: "Google"
-      method: "HEAD"
+      id: "google",
+      name: "Google",
+      method: "HEAD",
       target: 'https://google.com/',
       statusPageLink: 'https://google.com/',
       hideLatencyChart: false,
@@ -94,9 +94,9 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {  
-      id: "cloudflare"
-      name: "cloudflare"
-      method: "HEAD"
+      id: "cloudflare",
+      name: "cloudflare",
+      method: "HEAD",
       target: 'https://cloudflare.com/',
       statusPageLink: 'https://cloudflare.com/',
       hideLatencyChart: false,
@@ -104,9 +104,9 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: "github"
-      name: "GitHub"
-      method: "HEAD"
+      id: "github",
+      name: "GitHub",
+      method: "HEAD",
       target: 'https://github.com/',
       statusPageLink: 'https://github.com/',
       hideLatencyChart: false,
@@ -114,9 +114,9 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {  
-      id: "bing"
-      name: "Bing"
-      method: "HEAD"
+      id: "bing",
+      name: "Bing",
+      method: "HEAD",
       target: 'https://bing.com/',
       statusPageLink: 'https://bing.com/',
       hideLatencyChart: false,
@@ -124,9 +124,9 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {     
-      id: "baidu"
-      name: "Baidu"
-      method: "HEAD"
+      id: "baidu",
+      name: "Baidu",
+      method: "HEAD",
       target: 'https://Baidu.com/',
       statusPageLink: 'https://Baidu.com/',
       hideLatencyChart: false,
