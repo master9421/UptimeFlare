@@ -74,6 +74,16 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
+      id: 'blog_esa',
+      name: '博客（ESA国内节点）',
+      method: 'HEAD',
+      target: 'https://esa.sldblog.top/',
+      statusPageLink: 'https://cf.sldblog.top/',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
+    {
       id: 'blog_cf',
       name: '博客（Cloudflare Pages海外节点）',
       method: 'HEAD',
